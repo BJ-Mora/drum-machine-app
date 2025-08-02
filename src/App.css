@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.drum-machine {
+  display: flex;
+  justify-content: space-between;
+  height: 370px;
+  width: 650px;
+  border: 10px solid #032b44;
+  border-radius: 10px;
+  background-color: #2e5a88;
+  
+}
+
+.drum-pad {
+  height: 95px;
+  width: 95px;
+  border: 6px solid #e6e6e6;
+  border-radius: 5px;
+  background-color: #F5FEFD;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: 500;
+  color: #B43757;
+}
+
+.red-text {
+  color: #B43757;
+}
+
+.volume-slider input[type="range"] {
+  width: 100%;
+  z-index: 1;
+  accent-color: #f97316; /* Tailwind's orange-500 */
+}
